@@ -1,0 +1,48 @@
+"customers": [
+	{
+	  "_id": "1",
+	  "name": "John",
+	  "lastname" : "Smith",
+	  "type": "personal" 
+	  "email": "john@gmail.com"
+	  "phone": "555-555-5555",
+	},
+	{
+	  "_id": "2",
+	  "name": "Laura",
+	  "lastname" : "Smith",
+	  "type": "company" 
+	  "email": "laura@gmail.com"
+	  "phone": "554-555-5555",
+	}
+]
+"Products":[
+	{
+	  "id": "6",
+	  "accountHolders": ["1","2"],
+	  "accountNumber": "987654321",
+	  "amount": "5000.00",
+	  "type": "company credit",
+	  "montlyTransactionsLimit": "",
+	  "withdrawalDepositDay": " "
+	}
+]
+
+"Transactions" : [
+	{
+	  "idTransaction": 1,
+	  "date": "2023-03-01",
+	  "description": "Deposit",
+	  "amount": 500,
+	  "type": "credit",
+	  "account_number": "987654321"
+	},
+	{
+	  "idTransaction": 1,
+	  "date": "2023-03-01",
+	  "description": "Deposit",
+	  "amount": 500,
+	  "type": "credit",
+	  "account_number": "987654321"
+	}
+]
